@@ -67,14 +67,14 @@ p	A void * pointer argument is printed as hexadecimal in lower caps representing
 b	The argument is converted to an unsigned int value and then operated to get its binary representation (base 2).
 S	The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters).
 r	The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed in reverse order up to (but not including) a null byte ('\0').
-R	The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are encoded to ROT13 and printed in order up to (but not including a null byte ('\0').
+R	The argument receivedis expected to be a pointer type char * to an array of characters. Characters from this array are encoded to ROT13 and printed in order up to (but not including a null byte ('\0').
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
 
 Installing
 You will need to clone the repository of the project from Github. This will contain the _printf function and all of its dependencies. No main.c file will be provided for testing, so you will need to create one.
 
-git clone https://github.com/Adooz/printf.git
+git clone https://github.com/kindmanw/printf.git and https://github.com/Gods-ai/printf.git
 After cloning the repository you will have a folder called printf. In here there will be several files that allow the function to work.
 
 Submitted by William Kindness and Godswill Chimnonso
